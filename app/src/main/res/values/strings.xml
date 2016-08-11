@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">3-Quiz-App</string>
+    <string name="what_is_5_6">What is 5 + 6</string>
+    <string name="_11">11</string>
+    <string name="_12">12</string>
+    <string name="_10">10</string>
+    <string name="none_of_these">None of these</string>
+    <string name="select_all_prime_numbers">Select all prime numbers</string>
+    <string name="_1">1</string>
+    <string name="_9">9</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="when_was_obama_born">When was Obama born</string>
+    <string name="_1966">1966</string>
+    <string name="_1865">1865</string>
+    <string name="_100_b_c">100 B.C.</string>
+    <string name="_1961">1961</string>
+    <string name="what_is_99_x_10">What is 99 X 10</string>
+    <string name="same_as_1000_10">Same as 1000 - 10</string>
+    <string name="grade">grade</string>
 </resources>

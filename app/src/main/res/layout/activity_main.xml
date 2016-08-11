@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="What is 5 + 6" />
+            android:text="@string/what_is_5_6" />
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -27,25 +27,25 @@
                 android:id="@+id/option1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="11" />
+                android:text="@string/_11" />
 
             <RadioButton
                 android:id="@+id/option2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="12" />
+                android:text="@string/_12" />
 
             <RadioButton
                 android:id="@+id/option3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="10" />
+                android:text="@string/_10" />
 
             <RadioButton
                 android:id="@+id/option4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="None of these" />
+                android:text="@string/none_of_these" />
         </RadioGroup>
 
         <View
@@ -55,31 +55,31 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select all prime numbers" />
+            android:text="@string/select_all_prime_numbers" />
 
         <CheckBox
             android:id="@+id/checkbox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1" />
+            android:text="@string/_1" />
 
         <CheckBox
             android:id="@+id/checkbox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="9" />
+            android:text="@string/_9" />
 
         <CheckBox
             android:id="@+id/checkbox3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2" />
+            android:text="@string/_2" />
 
         <CheckBox
             android:id="@+id/checkbox4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3" />
+            android:text="@string/_3" />
 
         <View
             android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="When was obama born" />
+            android:text="@string/when_was_obama_born" />
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -98,25 +98,25 @@
                 android:id="@+id/obama1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1966" />
+                android:text="@string/_1966" />
 
             <RadioButton
                 android:id="@+id/obama2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1865" />
+                android:text="@string/_1865" />
 
             <RadioButton
                 android:id="@+id/obama3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="100 B.C." />
+                android:text="@string/_100_b_c" />
 
             <RadioButton
                 android:id="@+id/obama4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1961" />
+                android:text="@string/_1961" />
         </RadioGroup>
 
         <View
@@ -126,13 +126,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="What is 99 X 10" />
+            android:text="@string/what_is_99_x_10" />
 
         <EditText
             android:id="@+id/mathEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Same as 1000 - 10" />
+            android:hint="@string/same_as_1000_10" />
 
         <View
             android:layout_width="wrap_content"
@@ -145,7 +145,7 @@
             android:layout_gravity="center"
             android:onClick="grade"
             android:padding="16dp"
-            android:text="graDe" />
+            android:text="@string/grade" />
     </LinearLayout>
 
 
