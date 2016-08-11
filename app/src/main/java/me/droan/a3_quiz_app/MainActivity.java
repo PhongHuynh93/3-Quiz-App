@@ -1,7 +1,6 @@
 package me.droan.a3_quiz_app;
 
 import android.os.Bundle;
-import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
@@ -16,12 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Bind(R.id.option1)
     RadioButton option1;
-    @Bind(R.id.option2)
-    RadioButton option2;
-    @Bind(R.id.option3)
-    RadioButton option3;
-    @Bind(R.id.option4)
-    RadioButton option4;
+
     @Bind(R.id.checkbox1)
     CheckBox checkbox1;
     @Bind(R.id.checkbox2)
@@ -30,18 +24,12 @@ public class MainActivity extends AppCompatActivity {
     CheckBox checkbox3;
     @Bind(R.id.checkbox4)
     CheckBox checkbox4;
-    @Bind(R.id.obama1)
-    RadioButton obama1;
-    @Bind(R.id.obama2)
-    RadioButton obama2;
-    @Bind(R.id.obama3)
-    RadioButton obama3;
+
     @Bind(R.id.obama4)
     RadioButton obama4;
+
     @Bind(R.id.mathEditText)
     EditText mathEditText;
-    @Bind(R.id.activity_main)
-    NestedScrollView activityMain;
 
 
     @Override
