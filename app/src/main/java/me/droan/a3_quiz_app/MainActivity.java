@@ -39,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
+    /**
+     * calculate the totalScore and display it via toast
+     *
+     * @param view
+     */
     public void grade(View view) {
         int totalScore = 0;
         //ques1
@@ -58,6 +63,10 @@ public class MainActivity extends AppCompatActivity {
         if (mathEditText.getText().toString().trim().equalsIgnoreCase("990")) {
             totalScore++;
         }
-        Toast.makeText(this, "Your score is: " + totalScore, Toast.LENGTH_SHORT).show();
+        if (totalScore == 4) {
+            Toast.makeText(this, "Awesome!!! Your score is: " + totalScore, Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Your score is: " + totalScore, Toast.LENGTH_SHORT).show();
+        }
     }
 }
