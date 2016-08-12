@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.mathEditText)
     EditText mathEditText;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         if (option1.isChecked()) {
             totalScore++;
         }
-
         //ques2
         if (!checkbox1.isChecked() && !checkbox2.isChecked() && checkbox3.isChecked() && checkbox4.isChecked()) {
             totalScore++;
